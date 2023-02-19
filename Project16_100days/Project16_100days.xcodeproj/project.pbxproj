@@ -13,6 +13,8 @@
 		783B33A5299E8E890023CCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783B33A3299E8E890023CCCC /* Main.storyboard */; };
 		783B33A7299E8E8A0023CCCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783B33A6299E8E8A0023CCCC /* Assets.xcassets */; };
 		783B33AA299E8E8A0023CCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783B33A8299E8E8A0023CCCC /* LaunchScreen.storyboard */; };
+		783B33B2299E91A50023CCCC /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B33B1299E91A50023CCCC /* Capital.swift */; };
+		783B33B4299EAA290023CCCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B33B3299EAA290023CCCC /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		783B33A6299E8E8A0023CCCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783B33A9299E8E8A0023CCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783B33AB299E8E8A0023CCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783B33B1299E91A50023CCCC /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		783B33B3299EAA290023CCCC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				783B339F299E8E890023CCCC /* SceneDelegate.swift */,
 				783B33A1299E8E890023CCCC /* ViewController.swift */,
 				783B33A3299E8E890023CCCC /* Main.storyboard */,
+				783B33B3299EAA290023CCCC /* WebViewController.swift */,
+				783B33B1299E91A50023CCCC /* Capital.swift */,
 				783B33A6299E8E8A0023CCCC /* Assets.xcassets */,
 				783B33A8299E8E8A0023CCCC /* LaunchScreen.storyboard */,
 				783B33AB299E8E8A0023CCCC /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				783B33A2299E8E890023CCCC /* ViewController.swift in Sources */,
 				783B339E299E8E890023CCCC /* AppDelegate.swift in Sources */,
+				783B33B2299E91A50023CCCC /* Capital.swift in Sources */,
+				783B33B4299EAA290023CCCC /* WebViewController.swift in Sources */,
 				783B33A0299E8E890023CCCC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
