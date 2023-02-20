@@ -78,14 +78,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
 
         let ac = UIAlertController(title: placeName, message: placeInfo, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
-        /*
+        
         ac.addAction(UIAlertAction(title: "Wiki", style: .default, handler: { [weak self] _ in
             if let vc = self?.storyboard?.instantiateViewController(withIdentifier: "WebViewController") as? WebViewController {
                 vc.url = url
                 self?.navigationController?.pushViewController(vc, animated: true)
             }
         }))
-         */
+         
         present(ac, animated: true)
     }
 }
